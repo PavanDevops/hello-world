@@ -6,6 +6,5 @@ jobs:
      steps:
        - checkout
        - run: date
-       - run: pwd
        - run: ls -ltr
        - run: echo "hello world"
