@@ -5,4 +5,7 @@ jobs:
        - image: circleci/node:4.8
      steps:
        - checkout
+       - run: date
+       - run: pwd
+       - run: ls -ltr
        - run: echo "hello world"
